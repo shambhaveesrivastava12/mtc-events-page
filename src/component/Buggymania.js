@@ -3,7 +3,6 @@ import React from "react";
 const Buggymania = ({ text }) => {
   return (
     <div style={{ display: "flex" }}>
-      {/* Left side containing text */}
       <div
         style={{
           flex: "1",
@@ -14,7 +13,6 @@ const Buggymania = ({ text }) => {
         }}
       >
         <div style={{ textAlign: "center" }}>
-          {/* Change font family, color, and size of the heading */}
           <h2
             style={{
               fontFamily: "Inter, sans-serif",
@@ -24,11 +22,15 @@ const Buggymania = ({ text }) => {
           >
             MTC PRESENTS BUGYMANIA 2.0
           </h2>
-          {/* Display text content */}
-          <p style={{ fontSize: "14px", fontFamily: "Inter,sans-serif" }}>
-            {text}
+          <p
+            style={{
+              fontSize: "14px",
+              fontFamily: "Inter,sans-serif",
+              color: "white",
+            }}
+          >
+            <b>{text}</b>
           </p>
-          {/* Read more button with font */}
           <button
             style={{
               background: "#006fee",
@@ -39,7 +41,7 @@ const Buggymania = ({ text }) => {
               border: "none",
             }}
           >
-            Read More
+            <b>Read More</b>
           </button>
         </div>
       </div>
@@ -61,10 +63,7 @@ const Buggymania = ({ text }) => {
             borderRadius: "5px",
             padding: "10px",
           }}
-        >
-          {/* Placeholder for image or any other content */}
-          {/* You can replace this box with your image */}
-        </div>
+        ></div>
       </div>
     </div>
   );

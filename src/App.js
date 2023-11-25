@@ -9,11 +9,7 @@ const App = () => {
   return (
     <div>
       <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+
       {/* Display Buggymania component */}
       <Buggymania text={textForBuggymania} />
 
