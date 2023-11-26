@@ -7,7 +7,8 @@ const About = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: "300px",
+        height: "800px",
+        overflowY: "scroll",
       }}
     >
       <div style={{ color: "white" }}>
@@ -19,7 +20,15 @@ const About = () => {
           }}
         >
           About Event
+          <hr
+            style={{
+              width: "10%",
+              margin: "auto",
+              borderTop: "2px solid #006fee",
+            }}
+          />
         </h2>
+
         <p
           style={{
             fontSize: "14px",
@@ -60,7 +69,7 @@ const About = () => {
           }}
         >
           <b>
-            <span style={{ color: "#006fee" }}>In the final round</span> ,the 6
+            <span style={{ color: "#006fee" }}>In the final round</span>, the 6
             finalists were tasked with creating codes to solve a given
             situation. Two champions emerged from this group: Anvesh Kumar Raj
             secured the top position, while Arkaprava Trip claimed the second
