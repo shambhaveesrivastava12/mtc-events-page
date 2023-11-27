@@ -8,15 +8,15 @@ const About = () => {
         justifyContent: "center",
         alignItems: "center",
         height: "800px",
-        overflowY: "scroll",
       }}
     >
       <div style={{ color: "white" }}>
         <h2
           style={{
-            fontSize: "56px",
+            fontSize: "60px",
             fontFamily: "Inter, sans-serif",
             textAlign: "center",
+            marginTop:"-200px"
           }}
         >
           About Event
@@ -31,7 +31,7 @@ const About = () => {
 
         <p
           style={{
-            fontSize: "14px",
+            fontSize: "20px",
             fontFamily: "Inter, sans-serif",
             padding: "0 60px",
           }}
@@ -48,7 +48,7 @@ const About = () => {
         </p>
         <p
           style={{
-            fontSize: "14px",
+            fontSize: "20px",
             fontFamily: "Inter, sans-serif",
             padding: "0 60px",
           }}
@@ -63,7 +63,7 @@ const About = () => {
         </p>
         <p
           style={{
-            fontSize: "14px",
+            fontSize: "20px",
             fontFamily: "Inter, sans-serif",
             padding: "0 60px",
           }}

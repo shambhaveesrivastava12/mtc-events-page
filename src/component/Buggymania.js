@@ -27,7 +27,7 @@ const Buggymania = ({ text }) => {
 
           <p
             style={{
-              fontSize: "14px",
+              fontSize: "20px",
               fontFamily: "Inter, sans-serif",
               color: "white",
               padding: "10px",
@@ -59,18 +59,20 @@ const Buggymania = ({ text }) => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          width: "0%",
+          width: "100px",
+          height: "200px",
+          marginTop: "200px"
         }}
       >
         <img
           src={bugymaniaImage} // Set the image source
           alt="Bugymania" // Add alt text for accessibility
           style={{
-            height: "300px",
-            width: "300px",
+            height: "500px",
+            width: "500px",
             border: "2px solid #006fee",
             borderRadius: "5px",
-            padding: "10px",
+            padding: "-10px",
           }}
         />
       </div>
